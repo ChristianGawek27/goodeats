@@ -1,3 +1,27 @@
+# Good Eats
+Good Eats is a Single Page Application that will showcase me learnig  React.JS.  The site will use the Yelp API to pull restaurants from certain areas that a user will filter.
+This project will be the first of many React projects and other JS frameworks I would like to use.
+
+
+# Initial REACT Steps
+In order to start a React application, Node Package Manager will need to be installed.
+Go To Node.JS website and download the installer for your system.
+* https://nodejs.org/en/download
+Then open up terminal of command prompt and run the command:
+* node -v
+* npm -v 
+These commands will let you know what version of Node and NPM is installed on your system.
+# Starting a React APP
+To create a React APP, start by running the command:
+* npx create-react-app my-app
+This will start the process of building a React Application's libraries and dependencies.
+Once successfully Installed, go to your terminal or command prompt and run the command:
+* cd my-app
+This will bring you into the directory of where your React App has been installed.  From here you are able to run the commands from Getting Started with Create React App listed directly below.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +92,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Authors
+*  Christian Gawek - Initial Work
+
+
+# Languages/Technologies Used
+* HTML5
+* CSS
+* React.JS
+* YELP API
+* GIT
+
+
+# Future Work
+The future goals for Good Eats:
+* Incorporating the Google Maps API to display the actual location of the restaurant when a user clicks on a restaurant
+* Incorporating a backend the store user information into a Database.  This could be done using Node.JS
+* Possibility of using Machine Learning for when a user logs in to display foods they might be interested in in a certain area.
